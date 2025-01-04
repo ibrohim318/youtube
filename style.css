@@ -1,0 +1,20 @@
+.tag-sections::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+    background: gray;
+}
+.tag-sections::-webkit-scrollbar-thumb:horizontal{
+    background: #000;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar{
+    height: 8px;
+    width: 14px;
+    background: #212121;
+}
+
+body::-webkit-scrollbar-thumb:vertical{
+    background: gray;
+    border-radius: 0px;
+}
